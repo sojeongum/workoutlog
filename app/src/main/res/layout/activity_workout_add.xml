@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="ADD WORKOUT"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="30dp"
+            android:textStyle="italic" />
+
+        <ScrollView
+            android:id="@+id/scrollView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginTop="20dp"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Chest"
+                    android:textSize="20sp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="10dp"
+                    android:textColor="@color/black"/>
+
+                <CheckBox
+                    android:id="@+id/dumbbellFly"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Dumbbell Fly"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="10dp"
+                    />
+
+                <CheckBox
+                    android:id="@+id/benchPress"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Bench Press"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="5dp"
+                    />
+                <CheckBox
+                    android:id="@+id/chestPress"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Chest Press"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="5dp"
+                    />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#D4D4D4"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"/>
+
+                <TextView
+                    android:id="@+id/shoulder"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Shoulder"
+                    android:textSize="20sp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="10dp"
+                    android:textColor="@color/black"/>
+
+                <CheckBox
+                    android:id="@+id/sideLateralRaise"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Side Lateral Raise"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="10dp"
+                    />
+
+                <CheckBox
+                    android:id="@+id/shoulderPress"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Shoulder Press"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="5dp"
+                    />
+                <CheckBox
+                    android:id="@+id/frontraise"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Front Raise"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="5dp"
+                    />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#D4D4D4"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"/>
+
+
+                <TextView
+                    android:id="@+id/back"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Back"
+                    android:textSize="20sp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="10dp"
+                    android:textColor="@color/black"/>
+
+                <CheckBox
+                    android:id="@+id/dumbbellLow"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Dumbbell Row"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="10dp"
+                    />
+
+                <CheckBox
+                    android:id="@+id/deadLift"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Dead Lift"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="5dp"
+                    />
+                <CheckBox
+                    android:id="@+id/latPullDown"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Lat Pull Down"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="5dp"
+                    />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#D4D4D4"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"/>
+
+
+                <TextView
+                    android:id="@+id/core"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Core"
+                    android:textSize="20sp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="10dp"
+                    android:textColor="@color/black"/>
+
+                <CheckBox
+                    android:id="@+id/mountainClimber"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Mountain Climber"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="10dp"
+                    />
+
+                <CheckBox
+                    android:id="@+id/crunch"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Crunch"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="5dp"
+                    />
+                <CheckBox
+                    android:id="@+id/plank"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Plank"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="5dp"
+                    />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#D4D4D4"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"/>
+
+
+                <TextView
+                    android:id="@+id/arm"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Arm"
+                    android:textSize="20sp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="10dp"
+                    android:textColor="@color/black"/>
+
+                <CheckBox
+                    android:id="@+id/kickback"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Dumbbell Kick Back"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="10dp"
+                    />
+
+                <CheckBox
+                    android:id="@+id/chinup"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Chin Up"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="5dp"
+                    />
+                <CheckBox
+                    android:id="@+id/dumbbellCurl"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Dumbbell Curl"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="5dp"
+                    />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#D4D4D4"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"/>
+
+
+                <TextView
+                    android:id="@+id/lowerbody"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Lower-body"
+                    android:textSize="20sp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="10dp"
+                    android:textColor="@color/black"/>
+
+                <CheckBox
+                    android:id="@+id/squats"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Squats"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="10dp"
+                    />
+
+                <CheckBox
+                    android:id="@+id/legPress"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Leg Press"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="5dp"
+                    />
+                <CheckBox
+                    android:id="@+id/lunge"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Lunge"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="5dp"
+                    />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#D4D4D4"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"/>
+            </LinearLayout>
+
+
+
+        </ScrollView>
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
